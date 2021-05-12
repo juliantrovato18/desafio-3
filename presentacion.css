@@ -8,12 +8,13 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 450px) {
   .pagina-1 {
-    width: 900px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -114,11 +115,13 @@ body {
   }
 }
 .section-1 {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  width: 100px;
+  align-items: center;
+  justify-content: center;
 }
-@media (min-width: 900px) {
+@media (min-width: 450px) {
   .section-1 {
     width: 100%;
     display: flex;
@@ -139,7 +142,6 @@ body {
     font-family: "Open Sans";
     width: 313px;
     height: 96px;
-    margin-top: 190px;
   }
 }
 .foto-juli {
@@ -366,19 +368,18 @@ body {
 }
 .footer {
   width: 100%;
-  height: 400px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-@media (min-width: 900px) {
+@media (min-width: 450px) {
   .footer {
     width: 100%;
-    min-height: 473px;
+    min-height: 350px;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    align-items: center;
   }
 }
 .contenedor-footer {
@@ -436,7 +437,7 @@ body {
   .all-footers {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    justify-content: center;
   }
 }
 .insta,
@@ -450,7 +451,7 @@ body {
   width: 13.87px;
   height: 13.87px;
 }
-@media (min-width: 900px) {
+@media (min-width: 450px) {
   .insta,
   .linkedin,
   .github {
