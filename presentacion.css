@@ -217,7 +217,7 @@ body {
 
 .parrafo {
   text-align: center;
-  width: 100%;
+  width: 375px;
   padding: 20px;
 }
 .imagen-3-cont {
@@ -244,6 +244,7 @@ body {
   .imagen-3 {
     width: 200px;
     height: 200px;
+    margin-right: 30px;
   }
 }
 .section-2 {
@@ -375,7 +376,7 @@ body {
 }
 @media (min-width: 450px) {
   .footer {
-    width: 100%;
+    max-width: 1200px;
     min-height: 350px;
     display: flex;
     justify-content: center;
@@ -398,7 +399,7 @@ body {
 }
 @media (min-width: 450px) {
   .separador {
-    width: 50%;
+    max-width: 1200px;
   }
 }
 .contenedor-footer2 {
